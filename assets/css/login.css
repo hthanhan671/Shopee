@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+}
+
+.header{
+    height: 84px;
+    background-color: var(--white-color);
+    box-shadow: 0 6px 6px rgb(0 0 0 / 6%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar__img-logo {
+    margin-top: -8px;
+    margin-right: 8px;
+    height: 42px;
+}
+
+.navbar__text h3 {
+    color: #222;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 84px;
+}
+
+.navbar__help-link {
+    line-height: 84px;
+    color: #ee4d2d;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#main {
+    background-color: rgb(238, 77, 45);
+    display:flex ;
+    justify-content: space-around;
+}
+
+.content {
+    display:flex ;
+}
+
+.content__register {
+    margin: auto;
+    background-color: var(--white-color);
+    width: 400px;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+}
+
+.header__notify h4 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.content__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.content__list-phone--btn {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 32px;
+}
+
+.content__list-next {
+    display: flex;
+}
+
+.content__list-next--btn {
+    margin: auto;
+    padding: 12px;
+    width: 100%;
+    background-color: rgb(238, 77, 45);
+    opacity: 0.7;
+    border: none;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    cursor: not-allowed;
+}
+
+.content__list-separation {
+    display: flex;
+}
+
+.content__separation-text {
+    color: #ccc;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 1.2rem;    
+    line-height: 1px;
+    margin-bottom: 24px;
+}
+
+.content__boder {
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    flex: 1;
+}
+
+.content__list-link {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.content__list-acceptance {
+    margin-bottom: 32px;
+}
+
+.btn__facebook {
+    margin-right: 10px;
+}
+
+.btn__facebook:hover,
+.btn__Google:hover {
+    background-color: rgba(0,0,0,.02);
+}
+
+.btn__facebook,
+.btn__Google {
+    flex: 1;
+    padding: 8px;
+    background-color: var(--white-color);
+    border: 1px solid #ccc;
+}
+
+.btn__facebook-body,
+.btn__Google-body {
+    display: flex;
+    justify-content: center;
+}
+
+.btn__facebook-icon {
+    background: url('/assets/img/icon_fb.png') ; 
+    background-repeat: no-repeat;
+    background-size: 40px 22px;
+    background-position: center center;
+}
+
+.btn__Google-icon {
+    background: url('/assets/img/icon_gg.png') ; 
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: center center;
+}
+
+.btn__hide-google,
+.btn__hide-facebook {
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+}
+
+.btn__Google-text,
+.btn__facebook-text {
+    line-height: 22px;
+}
+
+.content__list-acceptance {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.content__list-acceptance-link {
+    text-decoration: none;
+    color: #ee4d2d;
+    cursor: pointer;
+    user-select: none;
+}
+
+.content__logo {
+    background: url("https://cf.shopee.vn/file/5569eb9dc7e09e2dbed5315b8f2ea8ba");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    height: 600px;
+    width: 1040px;
+}
+
+.content__slogan {
+    color: var(--white-color);
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 4.5rem;
+}
+
+.content__slogan-bottom {
+    margin-left: -32px;
+}
+
+.footer__login {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.footer__login-content {
+    margin: auto;
+}
+
+.footer__login-content--text {
+    white-space: pre;
+    padding-right: 4px;
+    color: rgba(0,0,0,.26);
+}
+
+.footer__login-link {
+    text-decoration: none;
+    color: #ee4d2d;
+}
+
+#footer {
+    height: 1000px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
